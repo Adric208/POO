@@ -42,9 +42,9 @@ public class Tarea{
         
          System.out.println("\n\nMetodo substring() ");
         String n1 = a1.substring(0,25);
-        String m2 = a1.substring(6);
+        String m2 = a1.substring(14);
         System.out.println("La subcadena de '" + a1 + "' que va desde el inicio hasta la posición 25 es: " + n1);
-        System.out.println("La subcadena de '" + a1 + "' que va desde la posición 6 hasta el final es: " + m2);
+        System.out.println("La subcadena de '" + a1 + "' que va desde la posición 14 hasta el final es: " + m2);
         
         System.out.println("\n\nPara Integer");
         String p = "3202";
