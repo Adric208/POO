@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Tarea2{
 public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
-        	System.out.println("Dame la cadena en el siguiente orden: 'Nombre Profesión Pais de Origen':");
+        	System.out.println("Dame la cadena en el siguiente orden: 'Nombre Profesión Nacionalidad':");
         String x = sc.nextLine();
         String[] p = x.split(" ");
         String a = p[0].toUpperCase();
