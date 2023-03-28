@@ -49,7 +49,7 @@ public class Cafetera {
 
     public void setVasos(int vasos) {
         if (vasos <= 50) {
-            this.cafe = cafe;
+            this.vasos = vasos;
         } else {
             System.out.println("Ya no caben mas vasos");
         }
