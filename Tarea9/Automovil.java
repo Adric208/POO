@@ -1,8 +1,8 @@
 package Tarea9;
 
 public class Automovil extends Vehiculo{
-    private String Color;
-    private String TipoDeMot;
+    private String color;
+    private String tipoDeMot;
     private int año;
     private Vehiculo Vehiculo;
 
@@ -10,26 +10,26 @@ public class Automovil extends Vehiculo{
     }
 
     public Automovil(String color, String tipoDeMot, int año, Tarea9.Vehiculo vehiculo) {
-        Color = color;
-        TipoDeMot = tipoDeMot;
+        color = color;
+        tipoDeMot = tipoDeMot;
         this.año = año;
         Vehiculo = vehiculo;
     }
 
-    public String getColor() {
-        return Color;
+    public String getcolor() {
+        return color;
     }
 
-    public void setColor(String color) {
-        Color = color;
+    public void setcolor(String color) {
+        color = color;
     }
 
-    public String getTipoDeMot() {
-        return TipoDeMot;
+    public String gettipoDeMot() {
+        return tipoDeMot;
     }
 
-    public void setTipoDeMot(String tipoDeMot) {
-        TipoDeMot = tipoDeMot;
+    public void settipoDeMot(String tipoDeMot) {
+        tipoDeMot = tipoDeMot;
     }
 
     public int getAño() {
@@ -51,8 +51,8 @@ public class Automovil extends Vehiculo{
     @Override
     public String toString() {
         return "Automovil{" +
-                "Color='" + Color + '\'' +
-                ", TipoDeMot='" + TipoDeMot + '\'' +
+                "color='" + color + '\'' +
+                ", tipoDeMot='" + tipoDeMot + '\'' +
                 ", año=" + año +
                 ", Vehiculo=" + Vehiculo +
                 '}';
