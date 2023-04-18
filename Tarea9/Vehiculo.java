@@ -1,49 +1,49 @@
 package Tarea9;
 
 public class Vehiculo {
-    private String Tipo;
-    private String TipoDeCom;
-    private String Medio;
+    private String tipo;
+    private String tipoDeCom;
+    private String medio;
 
     public Vehiculo() {
     }
 
     public Vehiculo(String tipo, String tipoDeCom, String medio) {
-        Tipo = tipo;
-        TipoDeCom = tipoDeCom;
-        Medio = medio;
+        tipo = tipo;
+        tipoDeCom = tipoDeCom;
+        medio = medio;
     }
 
-    public String getTipo() {
-        return Tipo;
+    public String gettipo() {
+        return tipo;
     }
 
-    public void setTipo(String tipo) {
-        Tipo = tipo;
+    public void settipo(String tipo) {
+        tipo = tipo;
     }
 
-    public String getTipoDeCom() {
-        return TipoDeCom;
+    public String gettipoDeCom() {
+        return tipoDeCom;
     }
 
-    public void setTipoDeCom(String tipoDeCom) {
-        TipoDeCom = tipoDeCom;
+    public void settipoDeCom(String tipoDeCom) {
+        tipoDeCom = tipoDeCom;
     }
 
-    public String getMedio() {
-        return Medio;
+    public String getmedio() {
+        return medio;
     }
 
-    public void setMedio(String medio) {
-        Medio = medio;
+    public void setmedio(String medio) {
+        medio = medio;
     }
 
     @Override
     public String toString() {
         return "Vehiculo{" +
-                "Tipo='" + Tipo + '\'' +
-                ", TipoDeCom='" + TipoDeCom + '\'' +
-                ", Medio='" + Medio + '\'' +
+                "tipo='" + tipo + '\'' +
+                ", tipoDeCom='" + tipoDeCom + '\'' +
+                ", medio='" + medio + '\'' +
                 '}';
     }
     public void moverse(){
