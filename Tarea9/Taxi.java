@@ -25,7 +25,7 @@ public class Taxi extends Automovil{
     }
 
     public String getmarca() {
-        return marca;
+        return Marca;
     }
 
     public void setmarca(String marca) {
@@ -33,7 +33,7 @@ public class Taxi extends Automovil{
     }
 
     public String getplaca() {
-        return placa;
+        return Placa;
     }
 
     public void setplaca(String placa) {
@@ -52,7 +52,7 @@ public class Taxi extends Automovil{
     public String toString() {
         return "Taxi{" +
                 "compañia='" + compañia + '\'' +
-                ", marca='" + marca + '\'' +
+                ", marca='" + Marca + '\'' +
                 ", Placa='" + Placa + '\'' +
                 ", Automovil=" + Automovil +
                 '}';
