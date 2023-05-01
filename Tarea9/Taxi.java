@@ -2,8 +2,8 @@ package Tarea9;
 
 public class Taxi extends Automovil{
     private String compañia;
-    private String Marca;
-    private String Placa;
+    private String marca;
+    private String placa;
     private Automovil Automovil;
 
     public Taxi() {
@@ -25,7 +25,7 @@ public class Taxi extends Automovil{
     }
 
     public String getmarca() {
-        return Marca;
+        return marca;
     }
 
     public void setmarca(String marca) {
@@ -33,7 +33,7 @@ public class Taxi extends Automovil{
     }
 
     public String getplaca() {
-        return Placa;
+        return placa;
     }
 
     public void setplaca(String placa) {
@@ -52,8 +52,8 @@ public class Taxi extends Automovil{
     public String toString() {
         return "Taxi{" +
                 "compañia='" + compañia + '\'' +
-                ", marca='" + Marca + '\'' +
-                ", Placa='" + Placa + '\'' +
+                ", marca='" + marca + '\'' +
+                ", Placa='" + placa + '\'' +
                 ", Automovil=" + Automovil +
                 '}';
     }
