@@ -80,9 +80,9 @@ public class ControladorPrincesas extends MouseAdapter {
             int index = this.view.getTablaPrincesas().getSelectedRow();
             Princesas tmp = modelo.getPrincesaAtIndex(index);
             try {
-                ImageIcon imagenAudifono = tmp.getImagenPrincesa();
+                ImageIcon imagenPrincesa = tmp.getImagenPrincesa();
                 if (imagenAudifono != null) {
-                    this.view.getLblImagenPrin().setIcon(imagenAudifono);
+                    this.view.getLblImagenPrin().setIcon(imagenPrincesa);
                 } else {
                     this.view.getLblImagenPrin().setIcon(null);
                     System.out.println("Error en la imagen");
